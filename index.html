@@ -6,6 +6,29 @@
     <title>Document</title>
 </head>
 <body>
+
+    <button class="player_selection_btn" selection="rock">Rock</button>
+    <button class="player_selection_btn" selection="paper">Paper</button>
+    <button class="player_selection_btn" selection="scissors">Scissors</button>
+    
+    <div class="container">
+        <h1 id="announcement">Start the game!</h1>
+        <h2 id="announcement2">Waiting for you...</h1>
+        <div class="scoreboard">
+            <div class="player_scoreboard">
+                <h3>Player:</h3>
+                <h4 id="player_score">0</h4>
+            </div>
+            <div class="computer_scoreboard">
+                <h3>Computer:</h3>
+                <h4 id="computer_score">0</h4>
+            </div>
+            <div class="computer_scoreboard">
+                <h3>Drawn:</h3>
+                <h4 id="drawn_score">0</h4>
+            </div>
+        </div>
+    </div>
     <script src="rock-paper-scissors.js"></script>
 </body>
 </html>
